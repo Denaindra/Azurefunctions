@@ -10,6 +10,9 @@ var builder = FunctionsApplication.CreateBuilder(args);
 
 builder.ConfigureFunctionsWebApplication();
 
+// Register HttpClient for making external API calls
+builder.Services.AddHttpClient();
+
 if (!string.IsNullOrEmpty(Environment.GetEnvironmentVariable("APPLICATIONINSIGHTS_CONNECTION_STRING")))
 {
     builder.Services.AddOpenTelemetry()
