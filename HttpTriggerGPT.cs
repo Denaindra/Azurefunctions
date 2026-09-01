@@ -40,7 +40,7 @@ public class HttpTriggerGPT
 
             if (userResponse == null)
             {
-                return new NotFoundObjectResult(new { error = "User not found" });
+                return new NotFoundObjectResult(new {  error = "User not found" });
             }
 
             // Parse and enhance the response
