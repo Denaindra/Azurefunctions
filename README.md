@@ -136,7 +136,7 @@ Logs are printed to the terminal where `func start` is running. You'll see:
 1. An Azure subscription
 2. A resource group
 3. A storage account
-4. Azure CLI installed and logged in
+4.  Azure CLI installed and logged in 
 
 ### Step-by-Step Deployment
 
